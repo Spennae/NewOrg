@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+        <h3>Personal Details</h3>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="birthDate">Date of Birth:</label>
+        <input type="date" id="birthDate" name="birthDate" required><br><br>
+
+        <label for="address1">Address 1:</label>
+        <input type="text" id="address1" name="address1" required><br><br>
+
+        <label for="address2">Address 2:</label>
+        <input type="text" id="address2" name="address2"><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="state">State:</label>
+        <select id="state" name="state" required></select><br><br>
+
+        <h3>Meal selection</h3>
+        <div id="dropdowns">  
+        </div>
+        <button type="button" id="confirmButton">Confirm selection</button><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
